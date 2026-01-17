@@ -17,6 +17,7 @@ body {
     --special-clr: rgba(230, 83, 60, 1);
     --bg-clr: rgba(255, 255, 255, 0.135);
     --dark-gray-clr: #222222;
+    --ft-bg-clr: #1A1A1A;
 
 }
 
@@ -417,5 +418,87 @@ nav {
     bottom: 4%;
     font-size: 0.8rem;
     color: var(--secondary-clr-half-wh);
+}
+
+
+
+/* Footer-section */
+footer {
+    background-color: var(--ft-bg-clr);
+}
+
+.footer-container {
+    padding-top: 3.5rem;
+
+}
+
+.footer-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.ft-contetn-1,
+.ft-contetn-2,
+.ft-contetn-3 {
+    max-width: 33.33%;
+}
+
+.ft-contetn-1 h2 {
+    color: var(--special-clr);
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.ft-contetn-1 p {
+    color: var(--secondary-clr-half-wh);
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+.ft-contetn-2 a,
+.ft-contetn-3 a {
+    color: var(--secondary-clr-half-wh);
+    font-size: 0.9rem;
+}
+
+.ft-contetn-2 a:hover,
+.ft-contetn-3 a:hover {
+    text-decoration: underline;
+    color: var(--primary-clr-wh);
+}
+
+.ft-contetn-2 li,
+.ft-contetn-3 li {
+    margin-bottom: 0.6rem;
+}
+
+.ft-contetn-2 h4,
+.ft-contetn-3 h4 {
+    color: var(--primary-clr-wh);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Footer-btm-content .ft-line {
+    width: 100%;
+    height: 0.5px;
+    background-color: var(--secondary-clr-half-wh);
+    opacity: 0.3;
+
+}
+
+.Footer-btm-content {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.Footer-btm-content p {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--secondary-clr-half-wh);
+
 }
 
