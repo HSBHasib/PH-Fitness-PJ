@@ -290,14 +290,6 @@ nav {
 
 
 /* Training-Section */
-
-.habit-text-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: var(--primary-clr-wh);
-}
-
-
 .training-container h2 {
     font-size: 2.5rem;
     color: var(--primary-clr-wh);
@@ -322,28 +314,108 @@ nav {
     mix-blend-mode:multiply;
 }
 
-.box-1 {
+.training-imgs .box-1 {
     background-color: #87ffe9;
     
 }
 
-.box-2 {
+.training-imgs .box-2 {
     grid-column: span 2;
     background-color: #ff7d7d;
 }
 
-.box-3 {
+.training-imgs .box-3 {
     background-color: rgb(163, 163, 163);
 }
 
-.box-4 {
+.training-imgs .box-4 {
     grid-column: span 2;
-     background-color: rgb(141, 132, 132);
+    background-color: rgb(141, 132, 132);
 }
-.box-5 {
+.training-imgs .box-5 {
     background-color: #a2f783;
 }
 
-.box-6 {
+.training-imgs .box-6 {
     background-color: #90b0ff;
 }
+
+/* .box {
+    position: relative;
+}
+
+.box p {
+    position: absolute;
+    color: #FFF;
+    font-size: 0.9rem;
+}
+
+.box-1 p {
+    left: 10%;
+    bottom: ;
+    color: yellow;
+} */
+
+
+
+/* Team-Section */
+
+.team-container {
+    margin-block: 5rem;
+}
+
+.team-text-content h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-clr-wh);
+}
+
+.team-text-content p {
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin: 0 auto;
+    color: var(--secondary-clr-half-wh);
+    margin-bottom: 3.5rem;
+}
+
+.team-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1.2rem;
+    background-color: var(--dark-gray-clr);
+    grid-gap: 1.2rem;
+    border-radius: 1rem;
+}
+
+.team-imgs img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.team-imgs .cards {
+    position: relative;
+
+}
+
+.team-imgs  h3 {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 10%;
+    font-size: 1.1rem;
+    color: var(--primary-clr-wh);
+
+}
+
+.team-imgs p {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 4%;
+    font-size: 0.8rem;
+    color: var(--secondary-clr-half-wh);
+}
+
