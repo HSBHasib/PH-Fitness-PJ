@@ -11,6 +11,15 @@ body {
 }
 
 /* Common Style */
+
+.hide {
+    display: none;
+}
+
+.bar-icon {
+    display: none;
+}
+
 :root {
     --primary-clr-wh: rgba(255, 255, 255, 1);
     --secondary-clr-half-wh: rgba(255, 255, 255, 0.5);
@@ -18,7 +27,6 @@ body {
     --bg-clr: rgba(255, 255, 255, 0.135);
     --dark-gray-clr: #222222;
     --ft-bg-clr: #1A1A1A;
-
 }
 
 .section-center {
@@ -53,10 +61,6 @@ a {
 
 
 /* Header | Navber Section */
-header {
-    /* background: linear-gradient(180.00deg, rgba(17.41, 17.41, 17.41, 1) 0%,rgba(119.41, 119.41, 119.41, 0) 100%); */
-}
-
 nav {
     align-items: center;
     justify-content: space-between;
@@ -122,6 +126,7 @@ nav {
     font-size: 1rem;
     margin-block: 2rem;
     line-height: 1.5rem;
+    color: var(--secondary-clr-half-wh);
 }
 
 .black-btn {
