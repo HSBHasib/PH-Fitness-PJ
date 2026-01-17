@@ -15,7 +15,7 @@ body {
     --primary-clr-wh: rgba(255, 255, 255, 1);
     --secondary-clr-half-wh: rgba(255, 255, 255, 0.5);
     --special-clr: rgba(230, 83, 60, 1);
-    --bg-clr: rgba(255, 255, 255, 0.1);
+    --bg-clr: rgba(255, 255, 255, 0.135);
 
 }
 
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-links ul {
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .nav-links a{
@@ -103,6 +103,7 @@ nav {
 .hero-container {
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin-top: 1rem;
 }
 
@@ -133,10 +134,11 @@ nav {
     position: relative;
     width: 50%;
     justify-content: end;
+
 }
 
 .hero-img img {
-    width: 55%;
+    width: 60%; 
     object-fit: cover;
 }
 
@@ -167,7 +169,7 @@ nav {
 
 .box-top {
     position: absolute;
-    right: -11%;
+    right: -10%;
     top: 22%;
 }
 
@@ -182,8 +184,66 @@ nav {
 
 .box-btm {
     position: absolute;
-    left: 25%;
-    bottom: 11%;
+    left: 21%;
+    bottom: 10%;
     align-items: center;
-    padding: 1.1rem 1.75rem;
+    padding: 1.2rem 1.75rem;
+}
+
+
+
+/* Main-Section | Habit-Section */
+.habit-container {
+    margin-top: 5rem;
+}
+
+.habit-text-content {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.habit-text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-clr-wh);
+}
+
+.habit-text-content p {
+    font-size: 0.8rem;
+    max-width: 50%;
+    margin: 0 auto;
+    color: var(--secondary-clr-half-wh);
+}
+
+.habit-content {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-content
+.habit-content-cards {
+    text-align: center;
+}
+
+.habit-content
+.habit-content-cards img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.habit-content
+.habit-content-cards h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-clr-wh);
+}
+
+.habit-content
+.habit-content-cards p {
+    font-size: 0.8rem;
+    max-width: 85%;
+    margin: 0 auto;
+    color: var(--secondary-clr-half-wh);
 }
